@@ -8,4 +8,8 @@ describe("Es biciesto", () => {
     it("El 5 no deberia considerarse como año bisiesto", () => {
         expect(esBisiesto(5)).toEqual(false); 
     })
+
+    it("El 8 deberia considerarse como año bisiesto", () => {
+        expect(esBisiesto(8)).toEqual(true); 
+    })
 })

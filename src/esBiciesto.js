@@ -1,6 +1,6 @@
 
 function esBisiesto(year) {
-    if(year === 4) return true; 
+    if(year % 4 == 0) return true; 
     return false; 
 }
 
