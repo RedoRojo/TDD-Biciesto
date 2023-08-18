@@ -25,4 +25,7 @@ describe("Es biciesto", () => {
         expect(esBisiesto(2000)).toEqual(true); 
     })
 
+    it("El 4000 deberia considerarse como año bisiesto", () => {
+        expect(esBisiesto(4000)).toEqual(true); 
+    })
 })
